@@ -1,0 +1,19 @@
+.joinNow :global {
+  padding-top: 96px;
+  padding-bottom: 96px;
+
+  .important-notes {
+    border-radius: 16px;
+    border: 1px solid theme("colors.primary");
+    background: #fff;
+    padding: 25px;
+
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import "antd/dist/reset.css"; // Ensure Ant Design resets are applied
+
+// Inputs
+.ant-input-number {
+  width: 100% !important;
+}
+
+// Buttons
+
+.ant-btn {
+  border-radius: 6px !important;
+  padding: 10px 20px !important;
+  height: auto !important;
+  min-width: 100px;
+  font-weight: 500 !important;
+}
+
+.ant-btn-primary {
+  background-color: theme("colors.primary") !important;
+  border-color: theme("colors.primary") !important;
+  color: #fff !important;
+
+  &:hover {
+    background-color: #fff !important;
+    border-color: theme("colors.primary") !important;
+    color: theme("colors.primary") !important;
+  }
+}
+
+.ant-btn-default {
+  color: theme("colors.secondary") !important; // Change primary color
+  border-color: #949499 !important;
+}
+
+.ant-btn-text {
+  color: #fff !important; // Change primary color
+  border-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+// Dragers
+.ant-upload-wrapper {
+  .ant-upload-drag {
+    background: #fff !important;
+    border: 1px solid #e5e7eb !important;
+  }
+}
+
+.ant-switch {
+  background-color: #fff !important;
+  border: 1px solid theme("colors.primary") !important;
+  padding-bottom: 2px !important;
+  height: 24px !important;
+  // height: 35px !important;
+  // min-width: 80px !important; // optional: adjust for content
+
+  // .ant-switch-handle {
+  //   top: 50% !important;
+  //   transform: translateY(-50%);
+  // }
+
+  // .ant-switch-inner {
+  //   height: fit-content !important;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   padding: 0 8px;
+  //   font-size: 12px;
+  // }
+
+  &.ant-switch-checked {
+    background-color: theme("colors.primary") !important;
+    border-color: theme("colors.primary") !important;
+
+    .ant-switch-inner span {
+      color: #fff !important;
+    }
+
+    .ant-switch-handle::before {
+      background-color: #fff !important;
+    }
+  }
+}
+
+.ant-form-item-required {
+  &::before {
+    content: "*" !important;
+    color: theme("colors.primary") !important;
+    margin-right: 4px !important;
+  }
+}
+
+.ant-form-item-explain-error {
+  color: theme("colors.secondary") !important;
+}
+
+.ant-select-outlined.ant-select-status-error {
+  .ant-select-selector {
+    border-color: theme("colors.secondary") !important;
+  }
+}

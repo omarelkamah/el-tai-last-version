@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "whatWeOffer": "What we offer",
+    "about": "About",
+    "insights": "Insights",
+    "partnerWithUs": "Partner with us"
+  },
+  "about-us": {
+    "description": "The Al-Tai Club Store is the official online shop that brings together the club’s fans and its products in one place, offering a complete shopping experience that reflects the club’s identity and rich history.\nThe store provides a wide range of official Al-Tai Club merchandise, including sportswear, accessories, and specially designed memorabilia for fans. All products are carefully selected to ensure high quality and designs that express the spirit of Al-Tai Club and the loyalty of its supporters.\nAt the Al-Tai Club Store, we aim to strengthen the connection between fans and their club by offering services and products that meet their expectations and give them the opportunity to express their pride and loyalty, both within the Kingdom and abroad."
+  },
+  "partnerWithUsModal": {
+    "buttonText": "Partner with us",
+    "partnerTitle": "Get in touch: Let’s",
+    "partnerSubtitle": "create impact together",
+    "partnerDescription1": "Sanad is a pioneering corporate venture studio for Al startups across MENA. If you are equally excited about corporate venture building, we'd love to hear from you.",
+    "privacy1": "For more information on how Sanad handles personal data,",
+    "privacy2": "please see our",
+    "privacyLink": "Privacy Policy",
+    "form": {
+      "fullName": "Full name",
+      "email": "Company email",
+      "organization": "Organization",
+      "phone": "Phone number",
+      "message": "Message",
+      "submit": "Submit",
+      "lookingTo": {
+        "label": "I'm looking to:",
+        "options": {
+          "invest": "Invest in Sanad or a Sanad startup",
+          "co_build": "Co-build startups with Sanad",
+          "work": "Work with Sanad or a Sanad startup",
+          "press": "Make a press inquiry",
+          "other": "Other"
+        },
+        "error": "Please select an option"
+      },
+      "errors": {
+        "fullName": "Please input your full name!",
+        "email": "Please input your company email!",
+        "organization": "Please input your organization!",
+        "phone": "Please input your phone number!"
+      },
+      "placeholders": {
+        "fullName": "Type your full name",
+        "email": "you@example.com",
+        "organization": "Type your organization name",
+        "phone": "Type your phone number",
+        "message": "Type your message"
+      }
+    }
+  },
+  "footer": {
+    "description": "Sanad co-creates the future with the most audacious corporate leaders, transforming disruptive visions into market-defining companies",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "aboutUs": {
+    "learnMoreAboutProcess": "Learn more about our process"
+  },
+  "homePage": {
+    "learnMore": "Learn more",
+    "back": "Back",
+    "howWeWork": "HOW WE WORK"
+  },
+  "insightsHero": {
+    "title": "Insights from the <br /> Frontlines of Innovation",
+    "description": "Stay ahead of the curve with expert perspectives, actionable advice, and the latest trends in entrepreneurship and venture building. At Sanad Studio we’re committed to sharing knowledge that inspires and empowers. Explore our curated content to gain valuable insights into the world of innovation.",
+    "button": "Read our latest article"
+  },
+  "browseMoreArticlesSection": {
+    "heading": "Browse more articles",
+    "description": "Discover expert insights, practical advice, and emerging trends in entrepreneurship and innovation to help you grow and lead with confidence."
+  },
+  "featuredArticlesSection": {
+    "title": "Featured Articles",
+    "description": "Dive into thought-provoking articles on entrepreneurship, emerging technologies, market trends, and startup strategies."
+  },
+  "privacyAndTerms": {
+    "privacyTitle": "Privacy Policy",
+    "TermsAndConditionsTitle": "Terms & Conditions",
+    "TermsTitle": "Return and Exchange Policy",
+    "faqTitle": "FAQ",
+    "lastUpdate": "Last Update: ",
+    "description": "At Al-Tai Club Store, we place great importance on the privacy of our users and are committed to protecting the personal data collected when using the website or benefiting from the store’s services.\nThis policy explains how users’ personal data is collected, used, and processed when visiting the website or placing orders through it.\nPlease read the privacy policy carefully to understand how we handle your personal information and your related rights."
+  },
+  "faq": {
+    "generalInstructions": "Learn everything about Al-Tai Club Store",
+    "categories": {
+      "general": "General Questions",
+      "shipping": "Shipping and Delivery"
+    }
+  },
+  "memberships": {
+    "how": {
+      "title": "How to Subscribe",
+      "description": "Choose a monthly plan, create your account, and complete payment to get instant access. You can manage or cancel your subscription anytime.",
+      "steps": {
+        "step1": {
+          "title": "Register & Choose Your Tier",
+          "description": "You can subscribe to any tier upon registration or later via the Memberships page on the website or app."
+        },
+        "step2": {
+          "title": "Complete Payment Easily",
+          "description": "Selecting a membership and confirming your subscription is easy through the available payment methods."
+        },
+        "step3": {
+          "title": "Start Enjoying Benefits Instantly",
+          "description": "Once subscribed, your membership is activated instantly and you begin enjoying all the benefits of your chosen tier."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Membership Terms and Conditions",
+      "item1": "Memberships are annual and renew automatically unless cancelled before the end of the year.",
+      "item2": "Benefits vary by membership tier and will be detailed when selecting a membership.",
+      "item3": "The store reserves the right to modify membership terms or benefits, with prior notice to members via email or the app."
+    }
+  }
+
+}
