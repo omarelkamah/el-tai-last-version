@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: "/**", // allow all paths under this domain
+      },
+      {
+        protocol: "https",
         hostname: "amzn-s3-ecommerce-app.s3.eu-north-1.amazonaws.com",
         pathname: "/**", // allow all paths under this domain
       },
