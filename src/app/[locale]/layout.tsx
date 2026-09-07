@@ -16,6 +16,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { DM_Sans, Cairo } from "next/font/google";
+import Image from "next/image";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -89,7 +90,17 @@ export default async function LocaleLayout({
           messages={messages}
         >
           <Providers>
-            <MainLayout>{children}</MainLayout>
+            {/* <MainLayout>{children}</MainLayout> */}
+
+            <div className="relative h-screen w-screen bg-[#383b3c]">
+              <Image
+                src="/images/temporary-branch.jpeg"
+                alt="temporary-branch"
+                fill
+                priority
+                className="object-cover bg-center"
+              />
+            </div>
           </Providers>
         </NextIntlClientProvider>
       </body>
