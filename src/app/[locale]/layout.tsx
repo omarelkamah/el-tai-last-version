@@ -90,8 +90,8 @@ export default async function LocaleLayout({
           messages={messages}
         >
           <Providers>
-            {/* <MainLayout>{children}</MainLayout> */}
-
+            <MainLayout>{children}</MainLayout> 
+{/* 
             <div className="relative h-screen w-screen bg-[#383b3c]">
               <Image
                 src="/images/temporary-branch.jpeg"
@@ -101,6 +101,7 @@ export default async function LocaleLayout({
                 className="object-cover bg-center"
               />
             </div>
+            */}
           </Providers>
         </NextIntlClientProvider>
       </body>
